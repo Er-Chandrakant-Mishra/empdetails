@@ -1,0 +1,40 @@
+/* src/style/Header.css */
+.header {
+  background-color: #eecdcd; 
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 24px;
+  color: #333; 
+}
+
+.header-nav {
+  display: flex;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-left: 20px; 
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: hsl(266, 83%, 53%); 
+  font-size: 16px;
+}
+
+.nav-item a:hover {
+  text-decoration: underline; 
+}
